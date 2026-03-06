@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which hook would you use to store a persistent value that doesn't trigger a re-render when changed?",
+      "options": ["useState", "useMemo", "useRef", "useCallback"],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "question": "Which hook is used to handle side effects in a functional component?",
+      "options": ["useState", "useContext", "useEffect", "useReducer"],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "question": "In React, what is 'Component Composition'?",
+      "options": [
+        "Inheriting properties from a base class",
+        "Combining smaller components to build complex UIs",
+        "The process of converting JSX to JavaScript",
+        "Managing global state with Redux"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "When using a range input in a controlled component, what is the data type of 'e.target.value'?",
+      "options": ["Number", "Boolean", "String", "Object"],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "What does 'React.lazy' help achieve?",
+      "options": [
+        "Faster state updates",
+        "Automatic code-splitting and delayed component loading",
+        "Better SEO for images",
+        "Lazy initialization of useState"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is the 'cleanup function' in a useEffect hook used for?",
+      "options": [
+        "To delete the component's state",
+        "To reset the browser's cache",
+        "To cancel subscriptions or timers before the component unmounts",
+        "To make the component run faster"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "question": "How do you pass a component as a 'wrapper' to render its nested content?",
+      "options": [
+        "Using the 'nest' prop",
+        "Using the 'children' prop",
+        "Using the 'content' prop",
+        "Using the 'inner' prop"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is a 'Lazy Initializer' in the useState hook?",
+      "options": [
+        "A way to update state after a delay",
+        "Passing a function to useState so it only runs on the first render",
+        "A method to load state from an external API",
+        "A way to bypass the Virtual DOM"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is true about React state updates?",
+      "options": [
+        "They are always synchronous",
+        "They must be updated by mutating the variable directly",
+        "They may be batched for performance and can be asynchronous",
+        "They can only be numbers or strings"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "question": "In TypeScript, which type is commonly used for a React component's functional definition?",
+      "options": ["React.Element", "React.FC", "React.Node", "React.Component"],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is the Virtual DOM?",
+      "options": [
+        "A direct copy of the browser's HTML",
+        "A lightweight JavaScript representation of the real DOM",
+        "A tool for debugging CSS",
+        "The database where React stores user data"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is the primary purpose of 'keys' in React lists?",
+      "options": [
+        "To uniquely identify an element and help React optimize rendering",
+        "To style specific elements within a list",
+        "To create a reference to the DOM node",
+        "To pass data from a child to a parent"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is 'Prop Drilling'?",
+      "options": [
+        "A technique for optimizing performance",
+        "Passing data through many layers of components to reach a deep child",
+        "Extracting data from a database",
+        "Injecting CSS into a component"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of 'Fragment' (<>...</>)?",
+      "options": [
+        "To speed up the app's loading time",
+        "To group multiple elements without adding an extra node to the DOM",
+        "To create a new CSS grid",
+        "To handle errors in the component tree"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "In a controlled input, how do you update the state?",
+      "options": [
+        "React updates it automatically",
+        "Using the 'defaultValue' attribute",
+        "By calling a setter function inside the 'onChange' event handler",
+        "By modifying the DOM directly with document.getElementById"
+      ],
+      "answer": 2
+    }
+  ]
+}
