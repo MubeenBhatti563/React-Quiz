@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Raleway+Dots&family=Roboto:ital,wght@0,100..900;1,100..900&family=Spirax&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(59, 59, 63);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  color: white;
+  width: 100%;
+}
