@@ -86,7 +86,7 @@ const QuizContext = ({ children }) => {
   const dataFetching = () => {
     dispatch({ type: "load" });
     setTimeout(() => {
-      fetch("http://localhost:3000/questions")
+      fetch("https://6a38ee2064a2d826922315eb.mockapi.io/questions")
         .then((res) => res.json())
         .then((data) => {
           dispatch({ type: "dataReceived", payload: data });
